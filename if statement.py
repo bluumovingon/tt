@@ -1,9 +1,9 @@
-temperature = 25
+temperature = int(input("Enter room temperature: "))
 
-if temperature > 30: 
+if temperature > 35: 
     print("it's a hot day")
     print("drink plenty of water")
-elif temperature > 20:
+elif temperature > 25:
      print("it's a nice day") 
 elif temperature > 10:
     print("It's a bit cold")
